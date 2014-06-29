@@ -1,0 +1,57 @@
+<?php
+
+function responsive_square_menu() {
+  $items = array();
+  $items['about'] = array(
+    'title' => 'About us',
+    'type' => MENU_NORMAL_ITEM,
+    'menu_name' => 'main-menu',
+    'page callback' => 'responsive_square_test',
+    'access callback' => TRUE,
+  );
+  $items['services'] = array(
+    'title' => 'Services',
+    'type' => MENU_NORMAL_ITEM,
+    'menu_name' => 'main-menu',
+    'page callback' => 'responsive_square_test',
+    'access callback' => TRUE,
+  );
+  $items['portfolio'] = array(
+    'title' => 'Portfolio',
+    'type' => MENU_NORMAL_ITEM,
+    'menu_name' => 'main-menu',
+    'page callback' => 'responsive_square_test',
+    'access callback' => TRUE,
+  );
+  $items['blog'] = array(
+    'title' => 'Blog',
+    'type' => MENU_NORMAL_ITEM,
+    'menu_name' => 'main-menu',
+    'page callback' => 'responsive_square_test',
+    'access callback' => TRUE,
+  );
+  $items['contact'] = array(
+    'title' => 'Contact',
+    'type' => MENU_NORMAL_ITEM,
+    'menu_name' => 'main-menu',
+    'page callback' => 'responsive_square_test',
+    'access callback' => TRUE,
+  );
+  return $items;
+}
+
+function responsive_square_newsletter_form($form, &$form_state) {
+  $form['email'] = array(
+    '#type' => 'textfield',
+    '#required' => TRUE,
+  );
+  $form['submit'] = array(
+    '#value' => 'Join Us',
+    '#type' => 'submit',
+  );
+  return $form;
+}
+
+function responsive_square_test() {
+
+}

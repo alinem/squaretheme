@@ -1,0 +1,29 @@
+name = Responsive Square
+description = Modern Design. Ultra Responsive. Beautiful Code.
+core = 7.x
+
+stylesheets[all][] = css/animate.min.css
+stylesheets[all][] = css/base.css
+stylesheets[all][] = css/elements.css
+stylesheets[all][] = css/flickr.css
+stylesheets[all][] = css/fontsawsome/font-awsome.min.css
+stylesheets[all][] = css/grid.css
+stylesheets[all][] = css/jquery.bxslider.css
+stylesheets[all][] = css/layout.css
+stylesheets[all][] = css/magnific-popups.css
+stylesheets[all][] = css/main_redesign.css
+stylesheets[all][] = css/settings.css
+
+; Remove core stylesheets
+stylesheets[all][] = system.menus.css
+stylesheets[all][] = system.messages.css
+stylesheets[all][] = system.theme.css
+stylesheets[all][] = node.css
+stylesheets[all][] = search.css
+stylesheets[all][] = user.css
+
+scripts[] = js/superfish.js
+
+regions[top] = Top
+regions[content] = Content
+regions[bottom] = Bottom

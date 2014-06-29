@@ -1,0 +1,2 @@
+.morris-hover:before{content: url(../../images/icons/24x24/white/lightbulb.png)}.morris-hover{position:absolute;z-index:1000;}.morris-hover.morris-default-style{width:120px;padding:10px 0;color:#fff;background-color:rgba(113, 217, 226, 0.5);font-family:sans-serif;font-size:12px;text-align:center;}.morris-hover.morris-default-style .morris-hover-row-label{font-weight:bold;margin-top:50px;}
+.morris-hover.morris-default-style .morris-hover-point{white-space:nowrap;margin:0.1em 0;}

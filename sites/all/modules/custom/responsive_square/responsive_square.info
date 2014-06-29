@@ -1,0 +1,5 @@
+name = Responsive square
+description = Create the demo functionality for the theme.
+package = Responsive square
+core = 7.x
+php = 5.3
