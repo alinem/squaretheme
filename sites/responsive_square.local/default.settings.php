@@ -559,3 +559,5 @@ $databases['default']['default'] = array(
   'host' => '127.9.157.130',
   'port' => '3306',
 );
+$conf['site_name'] = 'Responsive Square';
+$conf['theme_default'] = 'responsive_square';
