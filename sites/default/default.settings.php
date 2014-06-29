@@ -551,3 +551,11 @@ $conf['404_fast_html'] = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
  * Remove the leading hash signs to disable.
  */
 # $conf['allow_authorize_operations'] = FALSE;
+$databases['default']['default'] = array(
+  'driver' => 'mysql',
+  'database' => 'test',
+  'username' => 'adminrzKNsHW',
+  'password' => '8Xy_xyx5LP5H',
+  'host' => '127.9.157.130',
+  'port' => '3306',
+);
